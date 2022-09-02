@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="row g-2" >
+            <!-- primera fila -->
+            <div class="col-md-4">
+                <label for="identificacion" class="form-label">Numero de Identificacion</label>
+                <input type="text" name="identificacion" id="identificacion" class="form-control">
+            </div>
+           
+                     
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="cargo" class="form-label">Cargo en la Institución</label>
+                    <select name="cargo" id="cargo" class="form-select">
+                        <option selected>Elija una opcion</option>
+                        <option value="1">Directivo</option>
+                        <option value="2">Administrativo</option>
+                        <option value="3">Docente</option>
+                        <option value="4">Estudiante de Servicio Social</option>
+                    </select>
+                </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="usuario" class="form-label">Usuario Asignado</label>
+                    <input type="text" name="usuario" id="usuario" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="clave" class="form-label">Clave Asignada</label>
+                    <input type="password" name="clave" id="clave" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="tUsuario" class="form-label">Tipo de Usuario Definido</label><br>
+                    <input class="form-check-input" type="radio"  name="tUsuario1" id="tUsuario1">
+                    <label for="tUsuario1" class="form-label">Super Usuario</label><br>                
+                    <input type="radio" name="tUsuario2" id="tUsuario2" class="form-check-input">
+                    <label for="tUsuario2" class="form-label">Usuario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="button"   class="btn btn-primary btn-lg btn-block" id="aceptar" >Aceptar</button>
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="modificar" >Modificar</button>
+                </div>
+                <div class="col-md-3">
+                     
+                        <button type="button"   class="btn btn-primary btn-lg btn-block"  id="consultar" >Consultar</button>
+                        <button type="button"   class="btn btn-primary btn-lg btn-block"  id="eliminar" >Eliminar</button> 
+                </div>            
+                <div class="col-md-3">
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="salir" >Salir</button>
+                </div>          
+                          
+            </div>
+        </form>
+    </div>    
+</body>
+</html>

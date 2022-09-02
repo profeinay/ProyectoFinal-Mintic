@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="row g-2" >
+            <!-- primera fila -->
+            <div class="col-md-4">
+                <label for="identificacion" class="form-label">Numero de Identificacion</label>
+                <input type="text" name="identificacion" id="identificacion" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="pNombre" class="form-label">Primer Nombre</label>
+                    <input type="text" name="pNombre" id="pNombre" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="sNombre" class="form-label">Segundo Nombre</label>
+                    <input type="text" name="sNombre" id="sNombre" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                     <label for="pApellido" class="form-label">Primer Apellido</label>
+                    <input type="text" name="pApellido" id="pApellido" class="form-control">
+                </div>
+                <div class="col-md-4">
+                     <label for="sApellido" class="form-label">Segundo Apellido</label>
+                    <input type="text" name="sApellido" id="sApellido" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3 mt-3">
+                <div class="col-md-4">
+                    <label for="cargo" class="form-label">Grado en el cual se encuentra Matriculado</label>
+                </div>
+                <div class="col-md-4">
+                    <select name="cargo" id="cargo" class="form-select">
+                        <option selected>Seleccione un Grado</option>
+                        <option value="1">10A</option>
+                        <option value="2">10B</option>
+                        <option value="3">10C</option>
+                        <option value="4">10D</option>
+                        <option value="4">10E</option>
+                        <option value="1">11A</option>
+                        <option value="2">11B</option>
+                        <option value="3">11C</option>
+                        <option value="4">11D</option>
+                        <option value="4">11E</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="button"   class="btn btn-primary btn-lg btn-block" id="aceptar" >Aceptar</button>
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="modificar">Modificar</button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="consultar">Consultar</button>
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="eliminar">Eliminar</button> 
+                </div>            
+                <div class="col-md-3">
+                    <button type="button"   class="btn btn-primary btn-lg btn-block"  id="salir">Salir</button>
+                </div>                
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
